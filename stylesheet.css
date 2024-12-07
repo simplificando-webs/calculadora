@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+ 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #A3C794;
+    font-family: sora, sans-serif;
+
+    height: 900px;
+    width: 100%;
+ 
+   
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora{
+    width: 341px;
+    height: 497px;
+    background-color: #575757;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.screen{
+    width: 290px;
+    height: 81px;
+    background-color: #BCC9B7;
+    border: 1px solid rgba(255, 255, 255, 0.525);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-top: 6px solid #8080805c;
+    border-bottom: 6px solid #8080805c;
+    font-family: 'digital-clock-font';
+    color: dimgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.padBotones{
+    width: 270px;
+    height: 315px;
+    border-radius: 10px;
+
+}
+
+.cadenaBotones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    height: 63px;
+}
+
+.btn{
+   width: 58px; 
+   height: 54.25px;
+   background-color: whitesmoke;
+   border-radius: 5px;
+   box-shadow: 2px 3px 3px 1px #000000;
+   display: flex;
+   padding: 1px;
+   font-size: 1.5rem;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   border-bottom: 3px solid rgb(156, 155, 155);
+}
+
+
+.btn.igual{
+    background-color: #ff7f50;
+}
